@@ -4,7 +4,11 @@ import ProductCard from './ProductCard';
 const API_ENDPOINT = 'http://localhost:8000/api/cart/productsFromCartId?'
 const qs = new URLSearchParams(window.location.search);
 console.log(window.location.search)
-const clientId = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWZiZTJhY2JmMjk2ZDJlMmE4YTExMjMiLCJjbGllbnRQdWJsaWNLZXkiOiIxWE1nR1NzVjRFIiwiaWF0IjoxNjU5NzkxOTE2fQ.xfUEVXqcn2B8tEx-g4_R1rcGumRhdQkEZMgFOsOBkX8"
+// devilopurity
+// const clientId = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWZiZTJhY2JmMjk2ZDJlMmE4YTExMjMiLCJjbGllbnRQdWJsaWNLZXkiOiIxWE1nR1NzVjRFIiwiaWF0IjoxNjU5NzkxOTE2fQ.xfUEVXqcn2B8tEx-g4_R1rcGumRhdQkEZMgFOsOBkX8"
+
+// globalinterality
+const clientId = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjQ4MjBkOWE4MTgxYzRkNTdlYTJmZDMiLCJjbGllbnRQdWJsaWNLZXkiOiJxd1dvUXhybG9LIiwiaWF0IjoxNjYwNzQyNDA2fQ.r2h0j_bHfcWnwnWLnXSnSJsmsNbSrqhsPlmdWz8oWl4"
 
 const Cart = () => {
   //get search query from url
