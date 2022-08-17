@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ProductCard from './ProductCard';
 
-const API_ENDPOINT = 'http://localhost:8000/api/cart/productsFromCartId?'
+const API_ENDPOINT = 'https://interality-api.herokuapp.com/api/cart/productsFromCartId?'
 const qs = new URLSearchParams(window.location.search);
 console.log(window.location.search)
 // devilopurity
